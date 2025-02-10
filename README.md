@@ -60,8 +60,8 @@ Located in the [output](./output) directory, contains scripts to generate the ta
 
 Located in the [simulation](./simulation) directory, includes scripts to run the simulation studies.
 
-- [`results`](./simulation/results): Stores RData files with simulation results.
-- [.RData](./simulation/icon/code_icon.R): Scripts used to perform simulations and analyze results.
+- [.R](./simulation/icon/code_icon.R): Scripts used to perform the simulation studies.
+- [results](./simulation/results): Folder with `.RData` files with simulation results.
 
 ## References  
 
