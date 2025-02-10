@@ -19,15 +19,15 @@ It includes functions for parameter estimation, goodness-of-fit testing, and a s
 
 This repository relies on two GitHub packages:
 
-- [pldis](https://github.com/njerezlillo/pldis): Provides tools for fitting the discrete power-law model using frequentist and Bayesian estimation approaches.
+- [pldis](https://github.com/njerezlillo/pldis): Provides tools for estimating the scaling parameter and lower bound of the discrete power-law model using both frequentist and Bayesian methods.
 - [pwpldis](https://github.com/njerezlillo/pwpldis): Implements the piecewise discrete power-law model, allowing for segmented power-law behavior.
 
 ## Repository Structure
 
 ### Scripts
 
-- [altdistr.R](./altdistr.R): Implements the probability mass functions and inverse function sampling for alternative discrete models (Poisson, Exponential, Yule, Log-Normal). All models have been truncated to include a lower bound (see Clauset *et al.* 2009 for details). 
-- [clauset.R](./clauset.R): Imports functions for fitting and evaluating the goodness-of-fit of the discrete power-law model using the methods of Clauset *et al.* (2009). Often referenced in the manuscript as "traditional methods". [(reference)](https://aaronclauset.github.io/powerlaws/)
+- [altdistr.R](./altdistr.R): Implements probability mass functions and inverse transform sampling for alternative discrete models (Poisson, Exponential, Yule, Log-Normal). All models have been truncated to include a lower bound (see Clauset *et al.* 2009 for details). 
+- [clauset.R](./clauset.R): Imports functions for fitting and evaluating the goodness-of-fit of the discrete power-law model using the methods of Clauset *et al.* (2009). Often referenced as "traditional methods". [(reference)](https://aaronclauset.github.io/powerlaws/)
 
 ### Applications
 
@@ -44,7 +44,7 @@ Located in the [application](./application) directory, these subfolders contain 
   - `tbl_results.R`: Create a object with all the information, including average degree, etc.
   </details>  
   
-- [MobyDick](./application/mobydick): 
+- [MobyDick](./application/mobydick) (Section 6.2):
   <details>
   <summary> Click to expand </summary>
   - `book.txt`: Novel of Mobydick in `txt` format.
