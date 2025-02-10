@@ -26,34 +26,31 @@ This repository is based on two packages located on GitHub repository:
 
 The content is divided in 
 
-- [R Script: altdistr.R](./altdistr.R): Implement the probability mass function and generator of psudosamples based on the inverse function of the following discrete models: Poisson, Exponential, Yule, and Log-Normal. All of the models have been truncated to include a lower bound (see Clauset *et al.* 2009 for details). 
-- [R Script: clauset.R](./clauset.R): Import the functions to fitted and evalute the goodness-of-fit in the discrete power-law model see (Clauset *et al.* 2009). Often these metholodogies have referenced in the manuscript as "traditional methologies".
-- [Folder: application](./application): Contains all the datasets and codes used in the application section. They are divided in:
+- [altdistr.R](./altdistr.R): Implement the probability mass function and generator of psudosamples based on the inverse function of the following discrete models: Poisson, Exponential, Yule, and Log-Normal. All of the models have been truncated to include a lower bound (see Clauset *et al.* 2009 for details). 
+- [clauset.R](./clauset.R): Import the functions to fitted and evalute the goodness-of-fit in the discrete power-law model see (Clauset *et al.* 2009). Often these metholodogies have referenced in the manuscript as "traditional methologies".
+- [application](./application): Contains all the datasets and codes used in the application section. They are divided in:
 
   <details>
   <summary> Click to expand </summary>
 
-  [Folder: ICON](./application/icon)
+  [ICON](./application/icon)
 
-  [Folder: MobyDick](./application/mobydick)
+  [MobyDick](./application/mobydick)
+
+  </details>  
+  
+- [output](./output): Contains all the codes to export the results obtained in the simulation study section.
+
+- [simulation](./simulation): Contains all the codes to export the results obtained in the simulation study section. They contain:
 
   <details>
-  
-- [Folder: output](./output): Contains all the codes to export the results obtained in the simulation study section.
+  <summary> Click to expand </summary>
 
-- [Folder: simulation](./simulation): Contains all the codes to export the results obtained in the simulation study section. They contain:
+  [results](./application/results)
 
-<details>
-<summary> Click to expand </summary>
+  [R Codes](./application/icon/code_icon.R): blablabla
 
-[Folder: results](./application/results)
-
-[R Codes](./application/icon/code_icon.R): blablabla
-
-<details>
-
-
-
+  </details>  
 
 ## References  
 
