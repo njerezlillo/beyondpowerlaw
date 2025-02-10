@@ -7,50 +7,61 @@
 [![ArXiv](https://img.shields.io/badge/ArXiv-2311.11200-red)](https://arxiv.org/abs/2311.11200)
 <!-- badges: end -->
 
-This repository provides users with the tools and methods implemented in the study:
+This repository provides tools and methods developed in the study:
 
 > [**Beyond the Power Law: Estimation, Goodness-of-Fit, and a Semiparametric Extension in Complex Networks**](https://arxiv.org/abs/2311.11200).  
 *Jerez-Lillo N., Rodrigues F. A., Ferreira P. H., Ramos P. L.*  
 arXiv preprint arXiv:2311.11200 
 
-This repository includes functions for parameter estimation, goodness-of-fit testing, and the implementation of a semiparametric extension by adding change points. This repository facilitate the reproduction of results.
+It includes functions for parameter estimation, goodness-of-fit testing, and a semiparametric extension incorporating change points. The repository is designed to facilitate the reproduction of results.
 
-## Packages
+## Dependencies
 
-This repository is based on two packages located on GitHub repository:
+This repository relies on two GitHub packages:
 
-- [pldis](https://github.com/njerezlillo/pldis): This package offers a collection of tools for fitting the discrete power-law model, utilizing both frequentist and Bayesian approaches for parameter estimation.
-- [pwpldis](https://github.com/njerezlillo/pwpldis): This package provides tools for fitting the piecewise discrete power-law model, a flexible statistical framework for modeling data that exhibits power-law behavior in different segments.
+- [pldis](https://github.com/njerezlillo/pldis): Provides tools for fitting the discrete power-law model using frequentist and Bayesian estimation approaches.
+- [pwpldis](https://github.com/njerezlillo/pwpldis): Implements the piecewise discrete power-law model, allowing for segmented power-law behavior.
 
-## Content
+## Repository Structure
 
-The content is divided in 
+### Scripts
 
-- [altdistr.R](./altdistr.R): Implement the probability mass function and generator of psudosamples based on the inverse function of the following discrete models: Poisson, Exponential, Yule, and Log-Normal. All of the models have been truncated to include a lower bound (see Clauset *et al.* 2009 for details). 
-- [clauset.R](./clauset.R): Import the functions to fitted and evalute the goodness-of-fit in the discrete power-law model see (Clauset *et al.* 2009). Often these metholodogies have referenced in the manuscript as "traditional methologies".
-- [application](./application): Contains all the datasets and codes used in the application section. They are divided in:
+- [altdistr.R](./altdistr.R): Implements the probability mass functions and inverse function sampling for alternative discrete models (Poisson, Exponential, Yule, Log-Normal). All models have been truncated to include a lower bound (see Clauset *et al.* 2009 for details). 
+- [clauset.R](./clauset.R): Imports functions for fitting and evaluating the goodness-of-fit of the discrete power-law model using the methods of Clauset *et al.* (2009). Often referenced in the manuscript as "traditional methods". [(reference)](https://aaronclauset.github.io/powerlaws/)
 
+### Applications
+
+Located in the [application](./application) directory, these subfolders contain datasets and scripts used in the application section of the manuscript:
+
+- [ICON](./application/icon) (Section 6.1):
+  
   <details>
   <summary> Click to expand </summary>
-
-  [ICON](./application/icon)
-
-  [MobyDick](./application/mobydick)
-
+  - `code_icon.R`: Containt the codes used in the 6.1 section of the manuscript.
+  - `data`: Containt the degree sequences analyzed [(reference)](https://github.com/adbroido/SFAnalysis)
+  - `run`: Containts 10 R code to apply the traditional methodologies to all the degree sequences.
+  - `results`: Containts the results of to apply the last 10 R codes.
+  - `tbl_results.R`: Create a object with all the information, including average degree, etc.
   </details>  
   
-- [output](./output): Contains all the codes to export the results obtained in the simulation study section.
-
-- [simulation](./simulation): Contains all the codes to export the results obtained in the simulation study section. They contain:
-
+- [MobyDick](./application/mobydick): 
   <details>
   <summary> Click to expand </summary>
-
-  [results](./application/results)
-
-  [R Codes](./application/icon/code_icon.R): blablabla
-
+  - `book.txt`: Novel of Mobydick in `txt` format.
+  - `code_mobydick.R`: Containt the codes used in the 6.2 section of the manuscript.
+  - `frequency_words.txt`: Frequent of words   [(reference)](https://aaronclauset.github.io/powerlaws/data.htm)
   </details>  
+
+### Output
+
+Located in the [output](./output) directory, contains scripts to generate the tables and figures in the simulation studies. The name of the files reference their utility.
+
+### Simulation
+
+Located in the [simulation](./simulation) directory, includes scripts to run the simulation studies.
+
+- [`results`](./simulation/results): Stores RData files with simulation results.
+- [.RData](./simulation/icon/code_icon.R): Scripts used to perform simulations and analyze results.
 
 ## References  
 
