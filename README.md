@@ -9,13 +9,11 @@
 
 The **Beyond the Power Law** repository provides users with the tools and methods implemented in the study:
 
-**Beyond the Power Law: Estimation, Goodness-of-Fit, and a Semiparametric Extension in Complex Networks**.  
+> **Beyond the Power Law: Estimation, Goodness-of-Fit, and a Semiparametric Extension in Complex Networks**.  
 *Jerez-Lillo N., Rodrigues F. A., Ferreira P. H., Ramos P. L.*  
 arXiv preprint arXiv:2311.11200 
 
 This repository includes functions for parameter estimation, goodness-of-fit testing, and the implementation of a semiparametric extension by adding change points. This repository facilitate the reproduction of results.
-
----
 
 ## Packages
 
@@ -23,8 +21,6 @@ This repository is based on two packages located on GitHub repository:
 
 - [pldis](https://github.com/njerezlillo/pldis): This package offers a collection of tools for fitting the discrete power-law model, utilizing both frequentist and Bayesian approaches for parameter estimation.
 - [pwpldis](https://github.com/njerezlillo/pwpldis): This package provides tools for fitting the piecewise discrete power-law model, a flexible statistical framework for modeling data that exhibits power-law behavior in different segments.
-
----
 
 ## Content
 
