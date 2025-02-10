@@ -20,7 +20,7 @@ It includes functions for parameter estimation, goodness-of-fit testing, and a s
 This repository relies on two GitHub packages:
 
 - [pldis](https://github.com/njerezlillo/pldis): Provides tools for estimating the scaling parameter and lower bound of the discrete power-law model using both frequentist and Bayesian methods.
-- [pwpldis](https://github.com/njerezlillo/pwpldis): Implements the piecewise discrete power-law model, allowing for segmented power-law behavior.
+- [pwpldis](https://github.com/njerezlillo/pwpldis): Provides tools for estimating the change points and the scaling parameters of the piecewise discrete power-law model.
 
 ## Repository Structure
 
