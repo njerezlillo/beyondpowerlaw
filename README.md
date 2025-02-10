@@ -9,11 +9,9 @@
 
 This repository provides users with the tools and methods implemented in the study:
 
-<span style="font-size: 100%;">
-> [**Beyond the Power Law: Estimation, Goodness-of-Fit, and a Semiparametric Extension in Complex Networks**](https://arxiv.org/abs/2311.11200).  
+> [**Beyond the Power Law: Estimation, Goodness-of-Fit, and a Semiparametric Extension in Complex Networks**](https://arxiv.org/abs/2311.11200). 
 *Jerez-Lillo N., Rodrigues F. A., Ferreira P. H., Ramos P. L.*  
 arXiv preprint arXiv:2311.11200 
-</span>
 
 This repository includes functions for parameter estimation, goodness-of-fit testing, and the implementation of a semiparametric extension by adding change points. This repository facilitate the reproduction of results.
 
