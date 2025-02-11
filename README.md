@@ -3,8 +3,8 @@
 
 <!-- badges: start -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-![Lifecycle: experimental](https://img.shields.io/badge/Lifecycle-Experimental-steelblue)
 [![ArXiv](https://img.shields.io/badge/ArXiv-2311.11200-red)](https://arxiv.org/abs/2311.11200)
+![Lifecycle: ready for use](https://img.shields.io/badge/Lifecycle-ready%20for%20use-steelblue)
 <!-- badges: end -->
 
 This repository provides tools and methods developed in the manuscript:
