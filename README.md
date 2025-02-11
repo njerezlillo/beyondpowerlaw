@@ -24,12 +24,12 @@ This repository relies on two GitHub packages:
 
 ## Repository Structure
 
-### Scripts
+### R scripts
 
 - [altdistr.R](./altdistr.R): Implements probability mass functions and inverse transform sampling for alternative discrete models (Poisson, Exponential, Yule, Log-Normal). All models have been truncated to include a lower bound (see Clauset *et al.* 2009 for details). 
 - [clauset.R](./clauset.R): Imports functions for fitting and evaluating the goodness-of-fit of the discrete power-law model using the methods of Clauset *et al.* (2009), commonly referred to as "traditional methods" in the manuscript [(reference)](https://aaronclauset.github.io/powerlaws/).
 
-### Applications
+### Folder: application
 
 Located in the [application](./application) directory, this folder contain datasets and scripts used in the application section of the manuscript. Each subfolder corresponds to a specific case study and includes all necessary resources for reproducing the analyses.
 
@@ -63,11 +63,11 @@ Located in the [application](./application) directory, this folder contain datas
   
   </details>  
 
-### Output
+### Folder: output
 
 Located in the [output](./output) directory, this folder contains scripts for generating tables and figures from the simulation studies. File names indicate their specific study.
 
-### Simulation
+### Folder: simulation
 
 Located in the [simulation](./simulation) directory, this folder contains scripts to run the simulation studies.
 
