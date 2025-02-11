@@ -47,8 +47,8 @@ Located in the [application](./application) directory, this folder contain datas
 - [MobyDick](./application/mobydick) (Section 6.2): This subfolder contains resources for analyzing word frequency distributions in the novel of *Moby Dick* as a case study
   <details>
   <summary> Click to expand </summary>
-  - **book.txt**: The full text of *Moby Dick* in plain text format. This is used to create a word cloud of the most frequent words.
-  - **code_mobydick.R**: Contains the `R` scripts to analyze word frequency distribution of *Moby Dick*.
+  - **book.txt**: The full text of *Moby Dick* in plain text format. This is used to create a word cloud of the most frequent words.  
+  - **code_mobydick.R**: Contains the `R` scripts to analyze word frequency distribution of *Moby Dick*.  
   - **frequency_words.txt**: A precomputed dataset listing word frequencies in Moby Dick. This file was sourced from this [website](https://aaronclauset.github.io/powerlaws/data.htm)
   </details>  
 
@@ -60,7 +60,7 @@ Located in the [output](./output) directory, this folder contains scripts for ge
 
 Located in the [simulation](./simulation) directory, this folder contains scripts to run the simulation studies.
 
-- [.R](./simulation/icon/code_icon.R): Scripts used to perform the simulation studies.
+- [.R](./simulation/icon/code_icon.R): Scripts used to perform the simulation studies.   
 - [results](./simulation/results): Folder with `.RData` files with simulation results.
 
 ## References  
